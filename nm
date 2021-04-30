@@ -162,7 +162,7 @@ Madebyfish2651GuibyETERNITY6997.ResetOnSpawn = false
 Background.Name = "Background"
 Background.Parent = Madebyfish2651GuibyETERNITY6997
 Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background.Position = UDim2.new(0.0440729931, 0, 0.263658226, 0)
+Background.Position = UDim2.new(0.0530936122, 0, 0.063240692, 0)
 Background.Size = UDim2.new(0, 734, 0, 377)
 
 Panel.Name = "Panel"
@@ -312,7 +312,6 @@ OptionsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 OptionsTab.BackgroundTransparency = 1.000
 OptionsTab.Position = UDim2.new(0.165041164, 0, -0.000731168955, 0)
 OptionsTab.Size = UDim2.new(0, 563, 0, 342)
-OptionsTab.Visible = false
 
 ScrollingFrame.Parent = OptionsTab
 ScrollingFrame.Active = true
@@ -320,7 +319,7 @@ ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Size = UDim2.new(0, 564, 0, 342)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 1006)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 1026)
 ScrollingFrame.CanvasSize = UDim2.new(0, 0, 4, 0)
 
 Oldgames.Name = "Old games"
@@ -1038,7 +1037,7 @@ FORCERESET.Name = "FORCE RESET"
 FORCERESET.Parent = ScrollingFrame
 FORCERESET.BackgroundColor3 = Color3.fromRGB(212, 212, 212)
 FORCERESET.BorderSizePixel = 0
-FORCERESET.Position = UDim2.new(0.0133982971, 0, 0.931286573, 0)
+FORCERESET.Position = UDim2.new(0.0169443972, 0, 0.911549747, 0)
 FORCERESET.Size = UDim2.new(0, 542, 0, 107)
 
 UICorner_34.Parent = FORCERESET
@@ -1107,7 +1106,7 @@ MessageWhatDoes_10.BackgroundTransparency = 1.000
 MessageWhatDoes_10.Position = UDim2.new(-0.00180819468, 0, 0.586489379, 0)
 MessageWhatDoes_10.Size = UDim2.new(0, 344, 0, 45)
 MessageWhatDoes_10.Font = Enum.Font.GothamSemibold
-MessageWhatDoes_10.Text = "kill you for you idk what to say also to make it wok its - minus"
+MessageWhatDoes_10.Text = "kill you for you idk what to say also to make it work its - minus  heads up any script you have will no longer works it rgens you and removes gui like save and quit"
 MessageWhatDoes_10.TextColor3 = Color3.fromRGB(39, 39, 39)
 MessageWhatDoes_10.TextScaled = true
 MessageWhatDoes_10.TextSize = 22.000
@@ -1216,7 +1215,7 @@ TextButton_3.TextSize = 22.000
 
 -- Scripts:
 
-local function CBDX_fake_script() -- RUN.LocalScript 
+local function VXLQSOE_fake_script() -- RUN.LocalScript 
 	local script = Instance.new('LocalScript', RUN)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2397,8 +2396,8 @@ local function CBDX_fake_script() -- RUN.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(CBDX_fake_script)()
-local function FILLEL_fake_script() -- RUN_2.LocalScript 
+coroutine.wrap(VXLQSOE_fake_script)()
+local function YQOAST_fake_script() -- RUN_2.LocalScript 
 	local script = Instance.new('LocalScript', RUN_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2976,8 +2975,8 @@ local function FILLEL_fake_script() -- RUN_2.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(FILLEL_fake_script)()
-local function NMKXHKL_fake_script() -- RUN_3.LocalScript 
+coroutine.wrap(YQOAST_fake_script)()
+local function QIZOUFJ_fake_script() -- RUN_3.LocalScript 
 	local script = Instance.new('LocalScript', RUN_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3555,8 +3554,8 @@ local function NMKXHKL_fake_script() -- RUN_3.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(NMKXHKL_fake_script)()
-local function WPIFUX_fake_script() -- RUN_4.LocalScript 
+coroutine.wrap(QIZOUFJ_fake_script)()
+local function BQVOZBJ_fake_script() -- RUN_4.LocalScript 
 	local script = Instance.new('LocalScript', RUN_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3681,8 +3680,8 @@ local function WPIFUX_fake_script() -- RUN_4.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(WPIFUX_fake_script)()
-local function HKIHST_fake_script() -- RUN_5.LocalScript 
+coroutine.wrap(BQVOZBJ_fake_script)()
+local function OCQH_fake_script() -- RUN_5.LocalScript 
 	local script = Instance.new('LocalScript', RUN_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3740,8 +3739,8 @@ local function HKIHST_fake_script() -- RUN_5.LocalScript
 		end)	--  script here!
 	end)
 end
-coroutine.wrap(HKIHST_fake_script)()
-local function UTXTR_fake_script() -- RUN_6.LocalScript 
+coroutine.wrap(OCQH_fake_script)()
+local function YLUZC_fake_script() -- RUN_6.LocalScript 
 	local script = Instance.new('LocalScript', RUN_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3753,8 +3752,8 @@ local function UTXTR_fake_script() -- RUN_6.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(UTXTR_fake_script)()
-local function WJVQEBE_fake_script() -- RUN_7.LocalScript 
+coroutine.wrap(YLUZC_fake_script)()
+local function GPAOK_fake_script() -- RUN_7.LocalScript 
 	local script = Instance.new('LocalScript', RUN_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3808,8 +3807,8 @@ local function WJVQEBE_fake_script() -- RUN_7.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(WJVQEBE_fake_script)()
-local function GQASH_fake_script() -- RUN_8.LocalScript 
+coroutine.wrap(GPAOK_fake_script)()
+local function QGSYM_fake_script() -- RUN_8.LocalScript 
 	local script = Instance.new('LocalScript', RUN_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3837,8 +3836,8 @@ local function GQASH_fake_script() -- RUN_8.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(GQASH_fake_script)()
-local function SPKZ_fake_script() -- RUN_9.LocalScript 
+coroutine.wrap(QGSYM_fake_script)()
+local function EAGWU_fake_script() -- RUN_9.LocalScript 
 	local script = Instance.new('LocalScript', RUN_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3850,8 +3849,8 @@ local function SPKZ_fake_script() -- RUN_9.LocalScript
 		game.Lighting.GlobalShadows = true	--  script here!
 	end)
 end
-coroutine.wrap(SPKZ_fake_script)()
-local function WNJHVAW_fake_script() -- RUN_10.LocalScript 
+coroutine.wrap(EAGWU_fake_script)()
+local function JZPYTCJ_fake_script() -- RUN_10.LocalScript 
 	local script = Instance.new('LocalScript', RUN_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3878,8 +3877,8 @@ local function WNJHVAW_fake_script() -- RUN_10.LocalScript
 		end)	--  script here!
 	end)
 end
-coroutine.wrap(WNJHVAW_fake_script)()
-local function NODSTT_fake_script() -- Background.Dragify 
+coroutine.wrap(JZPYTCJ_fake_script)()
+local function XJGOLHK_fake_script() -- Background.Dragify 
 	local script = Instance.new('LocalScript', Background)
 
 	local UIS = game:GetService("UserInputService")
@@ -3920,8 +3919,8 @@ local function NODSTT_fake_script() -- Background.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(NODSTT_fake_script)()
-local function JMFX_fake_script() -- Background.OpenKey 
+coroutine.wrap(XJGOLHK_fake_script)()
+local function TQSF_fake_script() -- Background.OpenKey 
 	local script = Instance.new('LocalScript', Background)
 
 	local InputService = game:GetService("UserInputService")
@@ -3940,8 +3939,8 @@ local function JMFX_fake_script() -- Background.OpenKey
 		end
 	end)
 end
-coroutine.wrap(JMFX_fake_script)()
-local function GOCNY_fake_script() -- OptionsButton.LocalScript 
+coroutine.wrap(TQSF_fake_script)()
+local function XTNSI_fake_script() -- OptionsButton.LocalScript 
 	local script = Instance.new('LocalScript', OptionsButton)
 
 	local btn = script.Parent
@@ -3955,8 +3954,8 @@ local function GOCNY_fake_script() -- OptionsButton.LocalScript
 		options.Visible=true
 	end)
 end
-coroutine.wrap(GOCNY_fake_script)()
-local function JAYWH_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(XTNSI_fake_script)()
+local function AOLPI_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local btn = script.Parent
@@ -3970,8 +3969,8 @@ local function JAYWH_fake_script() -- TextButton.LocalScript
 		options.Visible=true
 	end)
 end
-coroutine.wrap(JAYWH_fake_script)()
-local function YVUAJHV_fake_script() -- HomeButton_2.LocalScript 
+coroutine.wrap(AOLPI_fake_script)()
+local function DUWL_fake_script() -- HomeButton_2.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton_2)
 
 	local btn = script.Parent
@@ -3985,8 +3984,8 @@ local function YVUAJHV_fake_script() -- HomeButton_2.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(YVUAJHV_fake_script)()
-local function KXOKM_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(DUWL_fake_script)()
+local function YGCB_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local btn = script.Parent
@@ -4000,8 +3999,8 @@ local function KXOKM_fake_script() -- TextButton_2.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(KXOKM_fake_script)()
-local function LVSMDJ_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(YGCB_fake_script)()
+local function UPCDE_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local btn = script.Parent
@@ -4015,8 +4014,8 @@ local function LVSMDJ_fake_script() -- ImageButton.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(LVSMDJ_fake_script)()
-local function SDSTQZ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(UPCDE_fake_script)()
+local function VURXPK_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local btn = script.Parent
@@ -4030,4 +4029,4 @@ local function SDSTQZ_fake_script() -- TextButton_3.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(SDSTQZ_fake_script)()
+coroutine.wrap(VURXPK_fake_script)()
