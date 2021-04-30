@@ -116,8 +116,30 @@ local RUN_8 = Instance.new("TextButton")
 local UICorner_30 = Instance.new("UICorner")
 local MessageWhatDoes_8 = Instance.new("TextLabel")
 local Desc_8 = Instance.new("TextLabel")
-local Sidebar = Instance.new("Frame")
+local FullBright = Instance.new("Frame")
 local UICorner_31 = Instance.new("UICorner")
+local Panel_18 = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local Panel_19 = Instance.new("Frame")
+local Title_15 = Instance.new("TextLabel")
+local UselessFrame_9 = Instance.new("Frame")
+local RUN_9 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local MessageWhatDoes_9 = Instance.new("TextLabel")
+local Desc_9 = Instance.new("TextLabel")
+local FORCERESET = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local Panel_20 = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local Panel_21 = Instance.new("Frame")
+local Title_16 = Instance.new("TextLabel")
+local UselessFrame_10 = Instance.new("Frame")
+local RUN_10 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local MessageWhatDoes_10 = Instance.new("TextLabel")
+local Desc_10 = Instance.new("TextLabel")
+local Sidebar = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
 local Ignore = Instance.new("Frame")
 local Ignore_2 = Instance.new("Frame")
 local ExecButton = Instance.new("Frame")
@@ -140,7 +162,7 @@ Madebyfish2651GuibyETERNITY6997.ResetOnSpawn = false
 Background.Name = "Background"
 Background.Parent = Madebyfish2651GuibyETERNITY6997
 Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background.Position = UDim2.new(0.0530936122, 0, 0.242781401, 0)
+Background.Position = UDim2.new(0.0440729931, 0, 0.263658226, 0)
 Background.Size = UDim2.new(0, 734, 0, 377)
 
 Panel.Name = "Panel"
@@ -298,7 +320,7 @@ ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Size = UDim2.new(0, 564, 0, 342)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 826)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 1006)
 ScrollingFrame.CanvasSize = UDim2.new(0, 0, 4, 0)
 
 Oldgames.Name = "Old games"
@@ -933,13 +955,171 @@ Desc_8.Text = "DESCRIPTION :"
 Desc_8.TextColor3 = Color3.fromRGB(39, 39, 39)
 Desc_8.TextSize = 22.000
 
+FullBright.Name = "FullBright"
+FullBright.Parent = ScrollingFrame
+FullBright.BackgroundColor3 = Color3.fromRGB(212, 212, 212)
+FullBright.BorderSizePixel = 0
+FullBright.Position = UDim2.new(0.0151713472, 0, 0.826754391, 0)
+FullBright.Size = UDim2.new(0, 542, 0, 107)
+
+UICorner_31.Parent = FullBright
+
+Panel_18.Name = "Panel"
+Panel_18.Parent = FullBright
+Panel_18.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+Panel_18.BorderSizePixel = 0
+Panel_18.Position = UDim2.new(0, 0, -0.00229566335, 0)
+Panel_18.Size = UDim2.new(0, 541, 0, 34)
+
+UICorner_32.Parent = Panel_18
+
+Panel_19.Name = "Panel"
+Panel_19.Parent = Panel_18
+Panel_19.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+Panel_19.BorderSizePixel = 0
+Panel_19.Position = UDim2.new(0.000843568938, 0, 0.721233606, 0)
+Panel_19.Size = UDim2.new(0, 536, 0, 9)
+
+Title_15.Name = "Title"
+Title_15.Parent = Panel_18
+Title_15.BackgroundColor3 = Color3.fromRGB(222, 222, 222)
+Title_15.BackgroundTransparency = 1.000
+Title_15.Position = UDim2.new(0.25314188, 0, 0.133861765, 0)
+Title_15.Size = UDim2.new(0, 107, 0, 29)
+Title_15.Font = Enum.Font.GothamSemibold
+Title_15.Text = "Fullbright "
+Title_15.TextColor3 = Color3.fromRGB(39, 39, 39)
+Title_15.TextSize = 22.000
+
+UselessFrame_9.Name = "Useless Frame"
+UselessFrame_9.Parent = Panel_18
+UselessFrame_9.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+UselessFrame_9.BorderSizePixel = 0
+UselessFrame_9.Position = UDim2.new(0.0085763419, 0, 1.85294116, 0)
+UselessFrame_9.Size = UDim2.new(0, 329, 0, 2)
+
+RUN_9.Name = "RUN"
+RUN_9.Parent = Panel_18
+RUN_9.BackgroundColor3 = Color3.fromRGB(195, 195, 195)
+RUN_9.Position = UDim2.new(0.634135664, 0, 1.20588231, 0)
+RUN_9.Size = UDim2.new(0, 186, 0, 50)
+RUN_9.Font = Enum.Font.GothamSemibold
+RUN_9.Text = "RUN SCRIPT ►"
+RUN_9.TextColor3 = Color3.fromRGB(39, 39, 39)
+RUN_9.TextSize = 22.000
+
+UICorner_33.Parent = RUN_9
+
+MessageWhatDoes_9.Name = "MessageWhatDoes"
+MessageWhatDoes_9.Parent = FullBright
+MessageWhatDoes_9.BackgroundColor3 = Color3.fromRGB(222, 222, 222)
+MessageWhatDoes_9.BackgroundTransparency = 1.000
+MessageWhatDoes_9.Position = UDim2.new(-0.00180819468, 0, 0.586489379, 0)
+MessageWhatDoes_9.Size = UDim2.new(0, 344, 0, 45)
+MessageWhatDoes_9.Font = Enum.Font.GothamSemibold
+MessageWhatDoes_9.Text = "FullBright makes the map less dark"
+MessageWhatDoes_9.TextColor3 = Color3.fromRGB(39, 39, 39)
+MessageWhatDoes_9.TextScaled = true
+MessageWhatDoes_9.TextSize = 22.000
+MessageWhatDoes_9.TextWrapped = true
+
+Desc_9.Name = "Desc"
+Desc_9.Parent = FullBright
+Desc_9.BackgroundColor3 = Color3.fromRGB(222, 222, 222)
+Desc_9.BackgroundTransparency = 1.000
+Desc_9.Position = UDim2.new(-0.00180812727, 0, 0.316654384, 0)
+Desc_9.Size = UDim2.new(0, 170, 0, 29)
+Desc_9.Font = Enum.Font.GothamSemibold
+Desc_9.Text = "DESCRIPTION :"
+Desc_9.TextColor3 = Color3.fromRGB(39, 39, 39)
+Desc_9.TextSize = 22.000
+
+FORCERESET.Name = "FORCE RESET"
+FORCERESET.Parent = ScrollingFrame
+FORCERESET.BackgroundColor3 = Color3.fromRGB(212, 212, 212)
+FORCERESET.BorderSizePixel = 0
+FORCERESET.Position = UDim2.new(0.0133982971, 0, 0.931286573, 0)
+FORCERESET.Size = UDim2.new(0, 542, 0, 107)
+
+UICorner_34.Parent = FORCERESET
+
+Panel_20.Name = "Panel"
+Panel_20.Parent = FORCERESET
+Panel_20.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+Panel_20.BorderSizePixel = 0
+Panel_20.Position = UDim2.new(0, 0, -0.00229566335, 0)
+Panel_20.Size = UDim2.new(0, 541, 0, 34)
+
+UICorner_35.Parent = Panel_20
+
+Panel_21.Name = "Panel"
+Panel_21.Parent = Panel_20
+Panel_21.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+Panel_21.BorderSizePixel = 0
+Panel_21.Position = UDim2.new(0.000843568938, 0, 0.721233606, 0)
+Panel_21.Size = UDim2.new(0, 536, 0, 9)
+
+Title_16.Name = "Title"
+Title_16.Parent = Panel_20
+Title_16.BackgroundColor3 = Color3.fromRGB(222, 222, 222)
+Title_16.BackgroundTransparency = 1.000
+Title_16.Position = UDim2.new(0.25314188, 0, 0.133861765, 0)
+Title_16.Size = UDim2.new(0, 107, 0, 29)
+Title_16.Font = Enum.Font.GothamSemibold
+Title_16.Text = "FORCE RESET"
+Title_16.TextColor3 = Color3.fromRGB(39, 39, 39)
+Title_16.TextSize = 22.000
+
+UselessFrame_10.Name = "Useless Frame"
+UselessFrame_10.Parent = Panel_20
+UselessFrame_10.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+UselessFrame_10.BorderSizePixel = 0
+UselessFrame_10.Position = UDim2.new(0.0085763419, 0, 1.85294116, 0)
+UselessFrame_10.Size = UDim2.new(0, 329, 0, 2)
+
+RUN_10.Name = "RUN"
+RUN_10.Parent = Panel_20
+RUN_10.BackgroundColor3 = Color3.fromRGB(195, 195, 195)
+RUN_10.Position = UDim2.new(0.634135664, 0, 1.20588231, 0)
+RUN_10.Size = UDim2.new(0, 186, 0, 50)
+RUN_10.Font = Enum.Font.GothamSemibold
+RUN_10.Text = "RUN SCRIPT ►"
+RUN_10.TextColor3 = Color3.fromRGB(39, 39, 39)
+RUN_10.TextSize = 22.000
+
+UICorner_36.Parent = RUN_10
+
+MessageWhatDoes_10.Name = "MessageWhatDoes"
+MessageWhatDoes_10.Parent = FORCERESET
+MessageWhatDoes_10.BackgroundColor3 = Color3.fromRGB(222, 222, 222)
+MessageWhatDoes_10.BackgroundTransparency = 1.000
+MessageWhatDoes_10.Position = UDim2.new(-0.00180819468, 0, 0.586489379, 0)
+MessageWhatDoes_10.Size = UDim2.new(0, 344, 0, 45)
+MessageWhatDoes_10.Font = Enum.Font.GothamSemibold
+MessageWhatDoes_10.Text = "kill you for you idk what to say"
+MessageWhatDoes_10.TextColor3 = Color3.fromRGB(39, 39, 39)
+MessageWhatDoes_10.TextScaled = true
+MessageWhatDoes_10.TextSize = 22.000
+MessageWhatDoes_10.TextWrapped = true
+
+Desc_10.Name = "Desc"
+Desc_10.Parent = FORCERESET
+Desc_10.BackgroundColor3 = Color3.fromRGB(222, 222, 222)
+Desc_10.BackgroundTransparency = 1.000
+Desc_10.Position = UDim2.new(-0.00180812727, 0, 0.316654384, 0)
+Desc_10.Size = UDim2.new(0, 170, 0, 29)
+Desc_10.Font = Enum.Font.GothamSemibold
+Desc_10.Text = "DESCRIPTION :"
+Desc_10.TextColor3 = Color3.fromRGB(39, 39, 39)
+Desc_10.TextSize = 22.000
+
 Sidebar.Name = "Sidebar"
 Sidebar.Parent = Background
 Sidebar.BackgroundColor3 = Color3.fromRGB(212, 212, 212)
 Sidebar.Position = UDim2.new(0, 0, 0.0928381979, 0)
 Sidebar.Size = UDim2.new(0, 165, 0, 342)
 
-UICorner_31.Parent = Sidebar
+UICorner_37.Parent = Sidebar
 
 Ignore.Name = "Ignore"
 Ignore.Parent = Sidebar
@@ -1036,7 +1216,7 @@ TextButton_3.TextSize = 22.000
 
 -- Scripts:
 
-local function IYXYZAT_fake_script() -- RUN.LocalScript 
+local function CCGECA_fake_script() -- RUN.LocalScript 
 	local script = Instance.new('LocalScript', RUN)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2217,8 +2397,8 @@ local function IYXYZAT_fake_script() -- RUN.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(IYXYZAT_fake_script)()
-local function WTBB_fake_script() -- RUN_2.LocalScript 
+coroutine.wrap(CCGECA_fake_script)()
+local function WYMN_fake_script() -- RUN_2.LocalScript 
 	local script = Instance.new('LocalScript', RUN_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2796,8 +2976,8 @@ local function WTBB_fake_script() -- RUN_2.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(WTBB_fake_script)()
-local function XRCJFTM_fake_script() -- RUN_3.LocalScript 
+coroutine.wrap(WYMN_fake_script)()
+local function UCNFXZN_fake_script() -- RUN_3.LocalScript 
 	local script = Instance.new('LocalScript', RUN_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3375,8 +3555,8 @@ local function XRCJFTM_fake_script() -- RUN_3.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(XRCJFTM_fake_script)()
-local function XOMQHWY_fake_script() -- RUN_4.LocalScript 
+coroutine.wrap(UCNFXZN_fake_script)()
+local function RXWWBT_fake_script() -- RUN_4.LocalScript 
 	local script = Instance.new('LocalScript', RUN_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3954,8 +4134,8 @@ local function XOMQHWY_fake_script() -- RUN_4.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(XOMQHWY_fake_script)()
-local function GBQTGP_fake_script() -- RUN_5.LocalScript 
+coroutine.wrap(RXWWBT_fake_script)()
+local function RNTM_fake_script() -- RUN_5.LocalScript 
 	local script = Instance.new('LocalScript', RUN_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4013,8 +4193,8 @@ local function GBQTGP_fake_script() -- RUN_5.LocalScript
 		end)	--  script here!
 	end)
 end
-coroutine.wrap(GBQTGP_fake_script)()
-local function XUHWUR_fake_script() -- RUN_6.LocalScript 
+coroutine.wrap(RNTM_fake_script)()
+local function OZZA_fake_script() -- RUN_6.LocalScript 
 	local script = Instance.new('LocalScript', RUN_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4026,8 +4206,8 @@ local function XUHWUR_fake_script() -- RUN_6.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(XUHWUR_fake_script)()
-local function FRNBSAL_fake_script() -- RUN_7.LocalScript 
+coroutine.wrap(OZZA_fake_script)()
+local function CIFGC_fake_script() -- RUN_7.LocalScript 
 	local script = Instance.new('LocalScript', RUN_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4081,8 +4261,8 @@ local function FRNBSAL_fake_script() -- RUN_7.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(FRNBSAL_fake_script)()
-local function NVLFUA_fake_script() -- RUN_8.LocalScript 
+coroutine.wrap(CIFGC_fake_script)()
+local function VQYRHNS_fake_script() -- RUN_8.LocalScript 
 	local script = Instance.new('LocalScript', RUN_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4110,8 +4290,34 @@ local function NVLFUA_fake_script() -- RUN_8.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(NVLFUA_fake_script)()
-local function SRKAZ_fake_script() -- Background.Dragify 
+coroutine.wrap(VQYRHNS_fake_script)()
+local function IOOEXPO_fake_script() -- RUN_9.LocalScript 
+	local script = Instance.new('LocalScript', RUN_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Lighting.FogEnd = 100000
+		game.Lighting.FogStart = 0
+		game.Lighting.ClockTime = 14
+		game.Lighting.Brightness = 2
+		game.Lighting.GlobalShadows = true	--  script here!
+	end)
+end
+coroutine.wrap(IOOEXPO_fake_script)()
+local function CNTK_fake_script() -- RUN_10.LocalScript 
+	local script = Instance.new('LocalScript', RUN_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Lighting.FogEnd = 100000
+		game.Lighting.FogStart = 0
+		game.Lighting.ClockTime = 14
+		game.Lighting.Brightness = 2
+		game.Lighting.GlobalShadows = true	--  script here!
+	end)
+end
+coroutine.wrap(CNTK_fake_script)()
+local function RSFED_fake_script() -- Background.Dragify 
 	local script = Instance.new('LocalScript', Background)
 
 	local UIS = game:GetService("UserInputService")
@@ -4152,8 +4358,8 @@ local function SRKAZ_fake_script() -- Background.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(SRKAZ_fake_script)()
-local function CLIMVDD_fake_script() -- Background.OpenKey 
+coroutine.wrap(RSFED_fake_script)()
+local function KZTAGFN_fake_script() -- Background.OpenKey 
 	local script = Instance.new('LocalScript', Background)
 
 	local InputService = game:GetService("UserInputService")
@@ -4172,8 +4378,8 @@ local function CLIMVDD_fake_script() -- Background.OpenKey
 		end
 	end)
 end
-coroutine.wrap(CLIMVDD_fake_script)()
-local function MZLMK_fake_script() -- OptionsButton.LocalScript 
+coroutine.wrap(KZTAGFN_fake_script)()
+local function TXZZ_fake_script() -- OptionsButton.LocalScript 
 	local script = Instance.new('LocalScript', OptionsButton)
 
 	local btn = script.Parent
@@ -4187,8 +4393,8 @@ local function MZLMK_fake_script() -- OptionsButton.LocalScript
 		options.Visible=true
 	end)
 end
-coroutine.wrap(MZLMK_fake_script)()
-local function BAJZ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(TXZZ_fake_script)()
+local function KUFUVT_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local btn = script.Parent
@@ -4202,8 +4408,8 @@ local function BAJZ_fake_script() -- TextButton.LocalScript
 		options.Visible=true
 	end)
 end
-coroutine.wrap(BAJZ_fake_script)()
-local function MVTX_fake_script() -- HomeButton_2.LocalScript 
+coroutine.wrap(KUFUVT_fake_script)()
+local function WVTI_fake_script() -- HomeButton_2.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton_2)
 
 	local btn = script.Parent
@@ -4217,8 +4423,8 @@ local function MVTX_fake_script() -- HomeButton_2.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(MVTX_fake_script)()
-local function DXRP_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(WVTI_fake_script)()
+local function JBUJNDC_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local btn = script.Parent
@@ -4232,8 +4438,8 @@ local function DXRP_fake_script() -- TextButton_2.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(DXRP_fake_script)()
-local function JSKR_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(JBUJNDC_fake_script)()
+local function VRPZ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local btn = script.Parent
@@ -4247,8 +4453,8 @@ local function JSKR_fake_script() -- ImageButton.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(JSKR_fake_script)()
-local function WZGKX_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(VRPZ_fake_script)()
+local function DLQOP_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local btn = script.Parent
@@ -4262,4 +4468,4 @@ local function WZGKX_fake_script() -- TextButton_3.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(WZGKX_fake_script)()
+coroutine.wrap(DLQOP_fake_script)()
