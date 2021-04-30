@@ -1216,7 +1216,7 @@ TextButton_3.TextSize = 22.000
 
 -- Scripts:
 
-local function CCGECA_fake_script() -- RUN.LocalScript 
+local function NTHV_fake_script() -- RUN.LocalScript 
 	local script = Instance.new('LocalScript', RUN)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2397,8 +2397,8 @@ local function CCGECA_fake_script() -- RUN.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(CCGECA_fake_script)()
-local function WYMN_fake_script() -- RUN_2.LocalScript 
+coroutine.wrap(NTHV_fake_script)()
+local function GSTLS_fake_script() -- RUN_2.LocalScript 
 	local script = Instance.new('LocalScript', RUN_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2976,8 +2976,8 @@ local function WYMN_fake_script() -- RUN_2.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(WYMN_fake_script)()
-local function UCNFXZN_fake_script() -- RUN_3.LocalScript 
+coroutine.wrap(GSTLS_fake_script)()
+local function PBSNVTZ_fake_script() -- RUN_3.LocalScript 
 	local script = Instance.new('LocalScript', RUN_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3555,8 +3555,8 @@ local function UCNFXZN_fake_script() -- RUN_3.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(UCNFXZN_fake_script)()
-local function RXWWBT_fake_script() -- RUN_4.LocalScript 
+coroutine.wrap(PBSNVTZ_fake_script)()
+local function XHWWW_fake_script() -- RUN_4.LocalScript 
 	local script = Instance.new('LocalScript', RUN_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3565,541 +3565,101 @@ local function RXWWBT_fake_script() -- RUN_4.LocalScript
 	
 		-- Instances:
 	
-		local Doomspireguibyfish2651 = Instance.new("ScreenGui")
-		local Background = Instance.new("Frame")
-		local Red = Instance.new("TextLabel")
-		local REDBOTTOM = Instance.new("TextButton")
-		local REDTOP = Instance.new("TextButton")
-		local REDMiddle = Instance.new("TextButton")
-		local RedBridge = Instance.new("TextButton")
-		local Blue = Instance.new("TextLabel")
-		local Bluetop = Instance.new("TextButton")
-		local BlueMiddle = Instance.new("TextButton")
-		local Bluebottom = Instance.new("TextButton")
-		local BlueBridge = Instance.new("TextButton")
-		local Yellow = Instance.new("TextLabel")
-		local Yellowtop = Instance.new("TextButton")
-		local YellowBottom = Instance.new("TextButton")
-		local YellowMiddle = Instance.new("TextButton")
-		local YellowBridge = Instance.new("TextButton")
-		local Green = Instance.new("TextLabel")
-		local GreenTop = Instance.new("TextButton")
-		local Greenbottom = Instance.new("TextButton")
-		local Greenmiddle = Instance.new("TextButton")
-		local GreenBridge = Instance.new("TextButton")
+		local FishtrashguiFish2651 = Instance.new("ScreenGui")
 		local Title = Instance.new("Frame")
+		local Frame = Instance.new("Frame")
+		local Frame_2 = Instance.new("Frame")
+		local Map = Instance.new("TextButton")
+		local Spwan = Instance.new("TextButton")
 		local TextLabel = Instance.new("TextLabel")
-		local Center = Instance.new("TextLabel")
-		local Center_2 = Instance.new("TextButton")
 	
 		--Properties:
 	
-		Doomspireguibyfish2651.Name = "Doomspire gui by fish#2651"
-		Doomspireguibyfish2651.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-		Doomspireguibyfish2651.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-	
-		Background.Name = "Background"
-		Background.Parent = Doomspireguibyfish2651
-		Background.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
-		Background.Position = UDim2.new(0.151020408, 0, 0.221294373, 0)
-		Background.Size = UDim2.new(0, 452, 0, 334)
-	
-		Red.Name = "Red"
-		Red.Parent = Background
-		Red.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		Red.BackgroundTransparency = 1.000
-		Red.Size = UDim2.new(0, 200, 0, 50)
-		Red.Font = Enum.Font.SourceSans
-		Red.Text = "RED"
-		Red.TextColor3 = Color3.fromRGB(255, 0, 0)
-		Red.TextScaled = true
-		Red.TextSize = 14.000
-		Red.TextWrapped = true
-	
-		REDBOTTOM.Name = "RED BOTTOM"
-		REDBOTTOM.Parent = Red
-		REDBOTTOM.BackgroundColor3 = Color3.fromRGB(168, 0, 0)
-		REDBOTTOM.Position = UDim2.new(0.100000001, 0, 3, 0)
-		REDBOTTOM.Size = UDim2.new(0, 159, 0, 28)
-		REDBOTTOM.Font = Enum.Font.SourceSans
-		REDBOTTOM.Text = "RED BOTTOM"
-		REDBOTTOM.TextColor3 = Color3.fromRGB(0, 0, 0)
-		REDBOTTOM.TextScaled = true
-		REDBOTTOM.TextSize = 14.000
-		REDBOTTOM.TextWrapped = true
-	
-		REDTOP.Name = "RED TOP"
-		REDTOP.Parent = Red
-		REDTOP.BackgroundColor3 = Color3.fromRGB(168, 0, 0)
-		REDTOP.Position = UDim2.new(0.100000001, 0, 1, 0)
-		REDTOP.Size = UDim2.new(0, 159, 0, 28)
-		REDTOP.Font = Enum.Font.SourceSans
-		REDTOP.Text = "RED TOP"
-		REDTOP.TextColor3 = Color3.fromRGB(0, 0, 0)
-		REDTOP.TextScaled = true
-		REDTOP.TextSize = 14.000
-		REDTOP.TextWrapped = true
-	
-		REDMiddle.Name = "RED Middle"
-		REDMiddle.Parent = Red
-		REDMiddle.BackgroundColor3 = Color3.fromRGB(168, 0, 0)
-		REDMiddle.Position = UDim2.new(0.100000001, 0, 2.38000011, 0)
-		REDMiddle.Size = UDim2.new(0, 159, 0, 28)
-		REDMiddle.Font = Enum.Font.SourceSans
-		REDMiddle.Text = "RED Middle"
-		REDMiddle.TextColor3 = Color3.fromRGB(0, 0, 0)
-		REDMiddle.TextScaled = true
-		REDMiddle.TextSize = 14.000
-		REDMiddle.TextWrapped = true
-	
-		RedBridge.Name = "Red Bridge"
-		RedBridge.Parent = Red
-		RedBridge.BackgroundColor3 = Color3.fromRGB(168, 0, 0)
-		RedBridge.Position = UDim2.new(0.100000001, 0, 1.70000005, 0)
-		RedBridge.Size = UDim2.new(0, 159, 0, 28)
-		RedBridge.Font = Enum.Font.SourceSans
-		RedBridge.Text = "Red Bridge"
-		RedBridge.TextColor3 = Color3.fromRGB(0, 0, 0)
-		RedBridge.TextScaled = true
-		RedBridge.TextSize = 14.000
-		RedBridge.TextWrapped = true
-	
-		Blue.Name = "Blue"
-		Blue.Parent = Background
-		Blue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		Blue.BackgroundTransparency = 1.000
-		Blue.Position = UDim2.new(0.53761059, 0, 0, 0)
-		Blue.Size = UDim2.new(0, 200, 0, 50)
-		Blue.Font = Enum.Font.SourceSans
-		Blue.Text = "BLUE"
-		Blue.TextColor3 = Color3.fromRGB(0, 85, 255)
-		Blue.TextScaled = true
-		Blue.TextSize = 14.000
-		Blue.TextWrapped = true
-	
-		Bluetop.Name = "Blue top"
-		Bluetop.Parent = Blue
-		Bluetop.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-		Bluetop.Position = UDim2.new(0.189999998, 0, 1, 0)
-		Bluetop.Size = UDim2.new(0, 147, 0, 28)
-		Bluetop.Font = Enum.Font.SourceSans
-		Bluetop.Text = "Blue top"
-		Bluetop.TextColor3 = Color3.fromRGB(0, 0, 0)
-		Bluetop.TextScaled = true
-		Bluetop.TextSize = 14.000
-		Bluetop.TextWrapped = true
-	
-		BlueMiddle.Name = "Blue Middle"
-		BlueMiddle.Parent = Blue
-		BlueMiddle.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-		BlueMiddle.Position = UDim2.new(0.189999998, 0, 2.38000011, 0)
-		BlueMiddle.Size = UDim2.new(0, 147, 0, 28)
-		BlueMiddle.Font = Enum.Font.SourceSans
-		BlueMiddle.Text = "Blue Middle"
-		BlueMiddle.TextColor3 = Color3.fromRGB(0, 0, 0)
-		BlueMiddle.TextScaled = true
-		BlueMiddle.TextSize = 14.000
-		BlueMiddle.TextWrapped = true
-	
-		Bluebottom.Name = "Blue bottom"
-		Bluebottom.Parent = Blue
-		Bluebottom.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-		Bluebottom.Position = UDim2.new(0.189999998, 0, 3.00000024, 0)
-		Bluebottom.Size = UDim2.new(0, 147, 0, 28)
-		Bluebottom.Font = Enum.Font.SourceSans
-		Bluebottom.Text = "Blue bottom"
-		Bluebottom.TextColor3 = Color3.fromRGB(0, 0, 0)
-		Bluebottom.TextScaled = true
-		Bluebottom.TextSize = 14.000
-		Bluebottom.TextWrapped = true
-	
-		BlueBridge.Name = "Blue Bridge"
-		BlueBridge.Parent = Blue
-		BlueBridge.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-		BlueBridge.Position = UDim2.new(0.189999998, 0, 1.70000005, 0)
-		BlueBridge.Size = UDim2.new(0, 147, 0, 28)
-		BlueBridge.Font = Enum.Font.SourceSans
-		BlueBridge.Text = "Blue Bridge"
-		BlueBridge.TextColor3 = Color3.fromRGB(0, 0, 0)
-		BlueBridge.TextScaled = true
-		BlueBridge.TextSize = 14.000
-		BlueBridge.TextWrapped = true
-	
-		Yellow.Name = "Yellow"
-		Yellow.Parent = Background
-		Yellow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		Yellow.BackgroundTransparency = 1.000
-		Yellow.Position = UDim2.new(0.53761059, 0, 0.494011968, 0)
-		Yellow.Size = UDim2.new(0, 200, 0, 50)
-		Yellow.Font = Enum.Font.SourceSans
-		Yellow.Text = "YELLOW"
-		Yellow.TextColor3 = Color3.fromRGB(255, 255, 0)
-		Yellow.TextScaled = true
-		Yellow.TextSize = 14.000
-		Yellow.TextWrapped = true
-	
-		Yellowtop.Name = "Yellow top"
-		Yellowtop.Parent = Yellow
-		Yellowtop.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
-		Yellowtop.Position = UDim2.new(0.189999998, 0, 1, 0)
-		Yellowtop.Size = UDim2.new(0, 147, 0, 25)
-		Yellowtop.Font = Enum.Font.SourceSans
-		Yellowtop.Text = "Yellow top"
-		Yellowtop.TextColor3 = Color3.fromRGB(0, 0, 0)
-		Yellowtop.TextScaled = true
-		Yellowtop.TextSize = 14.000
-		Yellowtop.TextWrapped = true
-	
-		YellowBottom.Name = "Yellow Bottom"
-		YellowBottom.Parent = Yellow
-		YellowBottom.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
-		YellowBottom.Position = UDim2.new(0.189999998, 0, 2.88000011, 0)
-		YellowBottom.Size = UDim2.new(0, 147, 0, 25)
-		YellowBottom.Font = Enum.Font.SourceSans
-		YellowBottom.Text = "Yellow Bottom"
-		YellowBottom.TextColor3 = Color3.fromRGB(0, 0, 0)
-		YellowBottom.TextScaled = true
-		YellowBottom.TextSize = 14.000
-		YellowBottom.TextWrapped = true
-	
-		YellowMiddle.Name = "Yellow Middle"
-		YellowMiddle.Parent = Yellow
-		YellowMiddle.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
-		YellowMiddle.Position = UDim2.new(0.189999998, 0, 2.24000001, 0)
-		YellowMiddle.Size = UDim2.new(0, 147, 0, 25)
-		YellowMiddle.Font = Enum.Font.SourceSans
-		YellowMiddle.Text = "Yellow Middle"
-		YellowMiddle.TextColor3 = Color3.fromRGB(0, 0, 0)
-		YellowMiddle.TextScaled = true
-		YellowMiddle.TextSize = 14.000
-		YellowMiddle.TextWrapped = true
-	
-		YellowBridge.Name = "Yellow Bridge"
-		YellowBridge.Parent = Yellow
-		YellowBridge.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
-		YellowBridge.Position = UDim2.new(0.189999998, 0, 1.62, 0)
-		YellowBridge.Size = UDim2.new(0, 147, 0, 25)
-		YellowBridge.Font = Enum.Font.SourceSans
-		YellowBridge.Text = "Yellow Bridge"
-		YellowBridge.TextColor3 = Color3.fromRGB(0, 0, 0)
-		YellowBridge.TextScaled = true
-		YellowBridge.TextSize = 14.000
-		YellowBridge.TextWrapped = true
-	
-		Green.Name = "Green"
-		Green.Parent = Background
-		Green.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		Green.BackgroundTransparency = 1.000
-		Green.Position = UDim2.new(0, 0, 0.494011968, 0)
-		Green.Size = UDim2.new(0, 200, 0, 50)
-		Green.Font = Enum.Font.SourceSans
-		Green.Text = "GREEN"
-		Green.TextColor3 = Color3.fromRGB(85, 170, 0)
-		Green.TextScaled = true
-		Green.TextSize = 14.000
-		Green.TextWrapped = true
-	
-		GreenTop.Name = "Green Top"
-		GreenTop.Parent = Green
-		GreenTop.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-		GreenTop.Position = UDim2.new(0.104999997, 0, 1, 0)
-		GreenTop.Size = UDim2.new(0, 159, 0, 25)
-		GreenTop.Font = Enum.Font.SourceSans
-		GreenTop.Text = "Green top"
-		GreenTop.TextColor3 = Color3.fromRGB(0, 0, 0)
-		GreenTop.TextScaled = true
-		GreenTop.TextSize = 14.000
-		GreenTop.TextWrapped = true
-	
-		Greenbottom.Name = "Green bottom"
-		Greenbottom.Parent = Green
-		Greenbottom.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-		Greenbottom.Position = UDim2.new(0.099999994, 0, 2.88000011, 0)
-		Greenbottom.Size = UDim2.new(0, 159, 0, 25)
-		Greenbottom.Font = Enum.Font.SourceSans
-		Greenbottom.Text = "Green bottom"
-		Greenbottom.TextColor3 = Color3.fromRGB(0, 0, 0)
-		Greenbottom.TextScaled = true
-		Greenbottom.TextSize = 14.000
-		Greenbottom.TextWrapped = true
-	
-		Greenmiddle.Name = "Green  middle"
-		Greenmiddle.Parent = Green
-		Greenmiddle.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-		Greenmiddle.Position = UDim2.new(0.104999989, 0, 2.24000025, 0)
-		Greenmiddle.Size = UDim2.new(0, 159, 0, 25)
-		Greenmiddle.Font = Enum.Font.SourceSans
-		Greenmiddle.Text = "Green Middle"
-		Greenmiddle.TextColor3 = Color3.fromRGB(0, 0, 0)
-		Greenmiddle.TextScaled = true
-		Greenmiddle.TextSize = 14.000
-		Greenmiddle.TextWrapped = true
-	
-		GreenBridge.Name = "Green Bridge"
-		GreenBridge.Parent = Green
-		GreenBridge.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-		GreenBridge.Position = UDim2.new(0.104999997, 0, 1.62000024, 0)
-		GreenBridge.Size = UDim2.new(0, 159, 0, 25)
-		GreenBridge.Font = Enum.Font.SourceSans
-		GreenBridge.Text = "Green Bridge"
-		GreenBridge.TextColor3 = Color3.fromRGB(0, 0, 0)
-		GreenBridge.TextScaled = true
-		GreenBridge.TextSize = 14.000
-		GreenBridge.TextWrapped = true
+		FishtrashguiFish2651.Name = "Fish trash gui Fish#2651"
+		FishtrashguiFish2651.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		FishtrashguiFish2651.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	
 		Title.Name = "Title"
-		Title.Parent = Background
-		Title.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
-		Title.Position = UDim2.new(-0.000782623887, 0, -0.128955022, 0)
-		Title.Size = UDim2.new(0, 452, 0, 35)
+		Title.Parent = FishtrashguiFish2651
+		Title.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+		Title.Position = UDim2.new(0.0623762384, 0, 0.223382041, 0)
+		Title.Size = UDim2.new(0, 442, 0, 53)
+	
+		Frame.Parent = Title
+		Frame.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+		Frame.Position = UDim2.new(0, 0, 0.99855876, 0)
+		Frame.Size = UDim2.new(0, 442, 0, 272)
+	
+		Frame_2.Parent = Title
+		Frame_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+		Frame_2.Position = UDim2.new(0.0294117648, 0, 1.38606691, 0)
+		Frame_2.Size = UDim2.new(0, 418, 0, 241)
+	
+		Map.Name = "Map"
+		Map.Parent = Frame_2
+		Map.BackgroundColor3 = Color3.fromRGB(50, 75, 44)
+		Map.Position = UDim2.new(0, 0, 0.0954356864, 0)
+		Map.Size = UDim2.new(0, 129, 0, 28)
+		Map.Font = Enum.Font.SourceSans
+		Map.Text = "TP MAP"
+		Map.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Map.TextScaled = true
+		Map.TextSize = 14.000
+		Map.TextWrapped = true
+	
+		Spwan.Name = "Spwan"
+		Spwan.Parent = Frame_2
+		Spwan.BackgroundColor3 = Color3.fromRGB(50, 75, 44)
+		Spwan.Position = UDim2.new(0.669856489, 0, 0.0954356864, 0)
+		Spwan.Size = UDim2.new(0, 129, 0, 28)
+		Spwan.Font = Enum.Font.SourceSans
+		Spwan.Text = "TP spwan"
+		Spwan.TextColor3 = Color3.fromRGB(255, 170, 127)
+		Spwan.TextScaled = true
+		Spwan.TextSize = 14.000
+		Spwan.TextWrapped = true
 	
 		TextLabel.Parent = Title
 		TextLabel.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
-		TextLabel.Position = UDim2.new(0, 0, 0.0857142806, 0)
-		TextLabel.Size = UDim2.new(0, 452, 0, 29)
+		TextLabel.Position = UDim2.new(0.0294117648, 0, 0.150943398, 0)
+		TextLabel.Size = UDim2.new(0, 409, 0, 35)
 		TextLabel.Font = Enum.Font.SourceSans
-		TextLabel.Text = "Fish Doomspire exploit"
-		TextLabel.TextColor3 = Color3.fromRGB(170, 0, 255)
+		TextLabel.Text = "Fish trash exploit for surive things"
+		TextLabel.TextColor3 = Color3.fromRGB(170, 85, 255)
 		TextLabel.TextScaled = true
 		TextLabel.TextSize = 14.000
 		TextLabel.TextWrapped = true
 	
-		Center.Name = "Center"
-		Center.Parent = Background
-		Center.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		Center.BackgroundTransparency = 1.000
-		Center.Position = UDim2.new(0.3960177, 0, 0, 0)
-		Center.Size = UDim2.new(0, 102, 0, 50)
-		Center.Font = Enum.Font.SourceSans
-		Center.Text = "Center"
-		Center.TextColor3 = Color3.fromRGB(255, 255, 255)
-		Center.TextScaled = true
-		Center.TextSize = 14.000
-		Center.TextWrapped = true
-	
-		Center_2.Name = "Center"
-		Center_2.Parent = Center
-		Center_2.BackgroundColor3 = Color3.fromRGB(181, 255, 243)
-		Center_2.Position = UDim2.new(0.14705883, 0, 1, 0)
-		Center_2.Size = UDim2.new(0, 73, 0, 284)
-		Center_2.Font = Enum.Font.SourceSans
-		Center_2.Text = "Tp center"
-		Center_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-		Center_2.TextScaled = true
-		Center_2.TextSize = 14.000
-		Center_2.TextWrapped = true
-	
 		-- Scripts:
 	
-		local function BQJNPKY_fake_script() -- REDBOTTOM.LocalScript 
-			local script = Instance.new('LocalScript', REDBOTTOM)
+		local function FAFQAJ_fake_script() -- Map.LocalScript 
+			local script = Instance.new('LocalScript', Map)
 	
 			local Plr = game.Players.LocalPlayer
 			local char = Plr.Character
 	
 			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-131.184, 24.7737, -0.29865)--add number here\
+				char.HumanoidRootPart.CFrame = CFrame.new(-122.607, 47.6692, 1.90309)--add number here\
 	
 			end)
 	
 		end
-		coroutine.wrap(BQJNPKY_fake_script)()
-		local function XILG_fake_script() -- REDTOP.LocalScript 
-			local script = Instance.new('LocalScript', REDTOP)
+		coroutine.wrap(FAFQAJ_fake_script)()
+		local function DWINT_fake_script() -- Spwan.LocalScript 
+			local script = Instance.new('LocalScript', Spwan)
 	
 			local Plr = game.Players.LocalPlayer
 			local char = Plr.Character
 	
 			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-127.61, 145.734, 2.29418)--add number here\
+				char.HumanoidRootPart.CFrame = CFrame.new(-261.206, 194.374, 306.49)--add number here\
 	
 			end)
 	
 		end
-		coroutine.wrap(XILG_fake_script)()
-		local function RCEH_fake_script() -- REDMiddle.LocalScript 
-			local script = Instance.new('LocalScript', REDMiddle)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-131.184, 24.7737, -0.29865)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(RCEH_fake_script)()
-		local function ITYPZ_fake_script() -- RedBridge.LocalScript 
-			local script = Instance.new('LocalScript', RedBridge)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-96.0424, 129.174, -2.98802)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(ITYPZ_fake_script)()
-		local function TNHZHM_fake_script() -- Bluetop.LocalScript 
-			local script = Instance.new('LocalScript', Bluetop)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-0.0598154, 145.259, 126.096)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(TNHZHM_fake_script)()
-		local function QWJLY_fake_script() -- BlueMiddle.LocalScript 
-			local script = Instance.new('LocalScript', BlueMiddle)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-0.619707, 65.574, 130.602)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(QWJLY_fake_script)()
-		local function URCJ_fake_script() -- Bluebottom.LocalScript 
-			local script = Instance.new('LocalScript', Bluebottom)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-0.0923092, 24.7737, 131.338)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(URCJ_fake_script)()
-		local function RFGGPDH_fake_script() -- BlueBridge.LocalScript 
-			local script = Instance.new('LocalScript', BlueBridge)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-0.477491, 129.174, 96.2701)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(RFGGPDH_fake_script)()
-		local function JVVBJC_fake_script() -- Yellowtop.LocalScript 
-			local script = Instance.new('LocalScript', Yellowtop)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(127.024, 145.494, 1.1816)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(JVVBJC_fake_script)()
-		local function NHKZN_fake_script() -- YellowBottom.LocalScript 
-			local script = Instance.new('LocalScript', YellowBottom)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(131.461, 24.774, 0.732975)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(NHKZN_fake_script)()
-		local function NCXEWD_fake_script() -- YellowMiddle.LocalScript 
-			local script = Instance.new('LocalScript', YellowMiddle)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(132.046, 65.574, -0.822696)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(NCXEWD_fake_script)()
-		local function DGBNVZO_fake_script() -- YellowBridge.LocalScript 
-			local script = Instance.new('LocalScript', YellowBridge)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(97.8715, 129.174, -4.88463)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(DGBNVZO_fake_script)()
-		local function ILGPTE_fake_script() -- GreenTop.LocalScript 
-			local script = Instance.new('LocalScript', GreenTop)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-4.04972, 145.254, -131.132)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(ILGPTE_fake_script)()
-		local function EODG_fake_script() -- Greenbottom.LocalScript 
-			local script = Instance.new('LocalScript', Greenbottom)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-0.899567, 24.774, -128.9)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(EODG_fake_script)()
-		local function IBERFAR_fake_script() -- Greenmiddle.LocalScript 
-			local script = Instance.new('LocalScript', Greenmiddle)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-0.62, 65.574, -129.272)--add number here\
-	
-			end)
-		end
-		coroutine.wrap(IBERFAR_fake_script)()
-		local function VPNH_fake_script() -- GreenBridge.LocalScript 
-			local script = Instance.new('LocalScript', GreenBridge)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-3.01761, 129.174, -96.2964)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(VPNH_fake_script)()
-		local function JBYE_fake_script() -- Background.LocalScript 
-			local script = Instance.new('LocalScript', Background)
+		coroutine.wrap(DWINT_fake_script)()
+		local function XOUNJX_fake_script() -- Title.LocalScript 
+			local script = Instance.new('LocalScript', Title)
 	
 			local Plr = game.Players.LocalPlayer
 	
@@ -4117,25 +3677,12 @@ local function RXWWBT_fake_script() -- RUN_4.LocalScript
 				end
 			end)
 		end
-		coroutine.wrap(JBYE_fake_script)()
-		local function YVIAP_fake_script() -- Center_2.LocalScript 
-			local script = Instance.new('LocalScript', Center_2)
-	
-			local Plr = game.Players.LocalPlayer
-			local char = Plr.Character
-	
-			script.Parent.MouseButton1Click:Connect(function()
-				char.HumanoidRootPart.CFrame = CFrame.new(-0.344388, 132.574, 2.77256)--add number here\
-	
-			end)
-	
-		end
-		coroutine.wrap(YVIAP_fake_script)()
+		coroutine.wrap(XOUNJX_fake_script)()
 		--  script here!
 	end)
 end
-coroutine.wrap(RXWWBT_fake_script)()
-local function RNTM_fake_script() -- RUN_5.LocalScript 
+coroutine.wrap(XHWWW_fake_script)()
+local function ABKLZ_fake_script() -- RUN_5.LocalScript 
 	local script = Instance.new('LocalScript', RUN_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4193,8 +3740,8 @@ local function RNTM_fake_script() -- RUN_5.LocalScript
 		end)	--  script here!
 	end)
 end
-coroutine.wrap(RNTM_fake_script)()
-local function OZZA_fake_script() -- RUN_6.LocalScript 
+coroutine.wrap(ABKLZ_fake_script)()
+local function XLMF_fake_script() -- RUN_6.LocalScript 
 	local script = Instance.new('LocalScript', RUN_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4206,8 +3753,8 @@ local function OZZA_fake_script() -- RUN_6.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(OZZA_fake_script)()
-local function CIFGC_fake_script() -- RUN_7.LocalScript 
+coroutine.wrap(XLMF_fake_script)()
+local function XUPC_fake_script() -- RUN_7.LocalScript 
 	local script = Instance.new('LocalScript', RUN_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4261,8 +3808,8 @@ local function CIFGC_fake_script() -- RUN_7.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(CIFGC_fake_script)()
-local function VQYRHNS_fake_script() -- RUN_8.LocalScript 
+coroutine.wrap(XUPC_fake_script)()
+local function FAXLCD_fake_script() -- RUN_8.LocalScript 
 	local script = Instance.new('LocalScript', RUN_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4290,8 +3837,8 @@ local function VQYRHNS_fake_script() -- RUN_8.LocalScript
 		--  script here!
 	end)
 end
-coroutine.wrap(VQYRHNS_fake_script)()
-local function IOOEXPO_fake_script() -- RUN_9.LocalScript 
+coroutine.wrap(FAXLCD_fake_script)()
+local function JIFZZC_fake_script() -- RUN_9.LocalScript 
 	local script = Instance.new('LocalScript', RUN_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4303,8 +3850,8 @@ local function IOOEXPO_fake_script() -- RUN_9.LocalScript
 		game.Lighting.GlobalShadows = true	--  script here!
 	end)
 end
-coroutine.wrap(IOOEXPO_fake_script)()
-local function CNTK_fake_script() -- RUN_10.LocalScript 
+coroutine.wrap(JIFZZC_fake_script)()
+local function QDYR_fake_script() -- RUN_10.LocalScript 
 	local script = Instance.new('LocalScript', RUN_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4316,8 +3863,8 @@ local function CNTK_fake_script() -- RUN_10.LocalScript
 		game.Lighting.GlobalShadows = true	--  script here!
 	end)
 end
-coroutine.wrap(CNTK_fake_script)()
-local function RSFED_fake_script() -- Background.Dragify 
+coroutine.wrap(QDYR_fake_script)()
+local function SHQIU_fake_script() -- Background.Dragify 
 	local script = Instance.new('LocalScript', Background)
 
 	local UIS = game:GetService("UserInputService")
@@ -4358,8 +3905,8 @@ local function RSFED_fake_script() -- Background.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(RSFED_fake_script)()
-local function KZTAGFN_fake_script() -- Background.OpenKey 
+coroutine.wrap(SHQIU_fake_script)()
+local function WMIZBQ_fake_script() -- Background.OpenKey 
 	local script = Instance.new('LocalScript', Background)
 
 	local InputService = game:GetService("UserInputService")
@@ -4378,8 +3925,8 @@ local function KZTAGFN_fake_script() -- Background.OpenKey
 		end
 	end)
 end
-coroutine.wrap(KZTAGFN_fake_script)()
-local function TXZZ_fake_script() -- OptionsButton.LocalScript 
+coroutine.wrap(WMIZBQ_fake_script)()
+local function JEIYU_fake_script() -- OptionsButton.LocalScript 
 	local script = Instance.new('LocalScript', OptionsButton)
 
 	local btn = script.Parent
@@ -4393,8 +3940,8 @@ local function TXZZ_fake_script() -- OptionsButton.LocalScript
 		options.Visible=true
 	end)
 end
-coroutine.wrap(TXZZ_fake_script)()
-local function KUFUVT_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(JEIYU_fake_script)()
+local function JJSPU_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local btn = script.Parent
@@ -4408,8 +3955,8 @@ local function KUFUVT_fake_script() -- TextButton.LocalScript
 		options.Visible=true
 	end)
 end
-coroutine.wrap(KUFUVT_fake_script)()
-local function WVTI_fake_script() -- HomeButton_2.LocalScript 
+coroutine.wrap(JJSPU_fake_script)()
+local function SIVSNA_fake_script() -- HomeButton_2.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton_2)
 
 	local btn = script.Parent
@@ -4423,8 +3970,8 @@ local function WVTI_fake_script() -- HomeButton_2.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(WVTI_fake_script)()
-local function JBUJNDC_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(SIVSNA_fake_script)()
+local function WOOAW_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local btn = script.Parent
@@ -4438,8 +3985,8 @@ local function JBUJNDC_fake_script() -- TextButton_2.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(JBUJNDC_fake_script)()
-local function VRPZ_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(WOOAW_fake_script)()
+local function UDZK_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local btn = script.Parent
@@ -4453,8 +4000,8 @@ local function VRPZ_fake_script() -- ImageButton.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(VRPZ_fake_script)()
-local function DLQOP_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(UDZK_fake_script)()
+local function NGAR_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local btn = script.Parent
@@ -4468,4 +4015,4 @@ local function DLQOP_fake_script() -- TextButton_3.LocalScript
 		options.Visible=false
 	end)
 end
-coroutine.wrap(DLQOP_fake_script)()
+coroutine.wrap(NGAR_fake_script)()
